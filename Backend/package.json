@@ -1,0 +1,24 @@
+{
+  "name": "kanban-style-note-manager",
+  "version": "1.0.0",
+  "description": "A Kanban style task/ note management CRUD App that uses the MERN stack. \r The user will be able to create simple and easy to manage tasks each with a title & description.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OscarHealyATU/Data-Rep-Kanban-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OscarHealyATU/Data-Rep-Kanban-App/issues"
+  },
+  "homepage": "https://github.com/OscarHealyATU/Data-Rep-Kanban-App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
