@@ -1,7 +1,7 @@
 import Card from 'react-bootstrap/Card';
-export default function NoteCard() {
+export default function TaskCard() {
     return (
-        <div className="NoteCard">
+        <div className="TaskCard">
               <Card style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
