@@ -5,7 +5,7 @@ export default function Board() {
     return (
         <>
         <div className="Header">
-            <Header pageName="Kanban App"/>
+            <Header pageName="Home"/>
         </div>
          <div className='col-container'>
             <div className="todo-col">
