@@ -4,6 +4,7 @@ export default function NoteCard({ title }) {
     return (
         <div className='kanban-column'>
             <h2>{title}</h2>
+            <hr></hr>
             <TaskCard />
         </div>
 

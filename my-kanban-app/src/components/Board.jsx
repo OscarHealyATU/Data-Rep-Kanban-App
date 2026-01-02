@@ -1,17 +1,25 @@
+import './Board.css'
 import KanbanCol from './KanbanCol';
-export default function NotesPage() {
+import Header from './Header';
+export default function Board() {
     return (
-        <div className='col-container'>
+        <>
+        <div className="Header">
+            <Header pageName="Kanban App"/>
+        </div>
+         <div className='col-container'>
             <div className="todo-col">
                 <KanbanCol title="ToDo" />
             </div>
             <div className="inProg-col">
-                <KanbanCol />
+                <KanbanCol  title="In Progress" />
             </div>
             <div className="complete-col">
-                <KanbanCol />
+                <KanbanCol  title="Completed" />
             </div>
         </div>
+        </>
+       
 
     );
 }
