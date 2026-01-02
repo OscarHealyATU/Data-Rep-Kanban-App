@@ -3,7 +3,7 @@ export default function NotesPage() {
     return (
         <div className='col-container'>
             <div className="todo-col">
-                <KanbanCol />
+                <KanbanCol title="ToDo" />
             </div>
             <div className="inProg-col">
                 <KanbanCol />
