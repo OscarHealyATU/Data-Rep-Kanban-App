@@ -10,13 +10,13 @@ export default function Board() {
             <Container className='col-container'>
                 <Row>
                     <Col className="todo-col">
-                        <KanbanCol title="ToDo" />
+                        <KanbanCol title="ToDo" status="todo" />
                     </Col>
                     <Col className="inProg-col">
-                        <KanbanCol title="In Progress" />
+                        <KanbanCol title="In Progress" status="inProg" />
                     </Col>
                     <Col className="complete-col">
-                        <KanbanCol title="Completed" />
+                        <KanbanCol title="Completed" status="completed" />
                     </Col>
                 </Row>
             </Container>

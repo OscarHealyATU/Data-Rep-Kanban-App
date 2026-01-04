@@ -1,0 +1,5 @@
+.TaskCard{
+    width: 18rem;
+    box-shadow: 10px 10px 10px gainsboro,
+                -10px -10px 5px white;
+}
