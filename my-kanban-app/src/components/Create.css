@@ -1,0 +1,20 @@
+.createTask{
+     width: 18rem;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+     border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+
+.createTask input,.createTask textarea {
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: inset -5px -5px 5px white, inset 5px 5px 3px gainsboro;
+    border-left: 1px solid gainsboro;
+    border-top: 1px solid gainsboro;
+     border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
