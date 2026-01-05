@@ -5,6 +5,9 @@ export default function Header({ pageName }) {
         <div className="header">
             <h1>{pageName}</h1>
             <div className='headerBtns'>
+                <Link to="/">
+                    <button className='btn btn-dark'>Dashboard</button>
+                </Link>
                 <Link to="/create">
                     <button className='btn btn-dark'>Add Task</button>
                 </Link>
