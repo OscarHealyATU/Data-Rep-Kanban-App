@@ -5,7 +5,7 @@ export default function KanbanCol({ title, status }) {
         <div className='kanban-column'>
             <h2>{title}</h2>
             <hr></hr>
-            <TaskCard status={status} />
+            <TaskCard status={status} priority="low"/>
         </div>
 
     )

@@ -1,0 +1,20 @@
+
+.header{
+   border-radius: 15px;
+    margin: 20px;
+   box-shadow: 10px 10px 20px lightgrey,-10px -10px 10px white;
+   padding: 20px;
+}
+
+.header h1{
+    text-shadow: -2px -2px 2px white, 3px 3px 2px gainsboro;
+}
+.headerBtns{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+button{
+    box-shadow: 5px 5px 5px lightgrey,-5px -5px 5px white;
+}

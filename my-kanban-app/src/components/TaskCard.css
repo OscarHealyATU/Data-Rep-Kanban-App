@@ -1,5 +1,34 @@
 .TaskCard{
     width: 18rem;
-    box-shadow: 10px 10px 10px gainsboro,
-                -10px -10px 5px white;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px gainsboro;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+     border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+               
+}
+
+.priority{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: solid 1px ghostwhite;
+    background-color: black;
+    box-shadow: 2px 2px 2px lightgray,
+                -2px -2px 2px white;
+
+}
+
+.priority.high{
+    background-color: red;
+    background: radial-gradient(circle,red 0%, darkred 100%);
+}
+.priority.medium{
+    background-color: orange;
+    background: radial-gradient(circle,orange 0%, brown 100%);
+}
+.priority.low{
+    background-color: lightgray;
+    background: radial-gradient(circle,whitesmoke 25%, dimgray 100%);
 }

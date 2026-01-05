@@ -5,7 +5,7 @@ import Header from './Header';
 export default function Board() {
     return (
         <>
-            <Header pageName="Home" className="header" />
+            <Header pageName="Home"/>
 
             <Container className='col-container'>
                 <Row>

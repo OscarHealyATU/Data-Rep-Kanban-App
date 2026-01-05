@@ -1,10 +1,11 @@
 import './TaskCard.css'
 import Card from 'react-bootstrap/Card';
-export default function TaskCard({ status }) {
+export default function TaskCard({ status, priority }) {
   return (
 
     <Card className="TaskCard">
       <Card.Body >
+        
         <Card.Title>Card Title</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
         <Card.Text>
@@ -18,6 +19,8 @@ export default function TaskCard({ status }) {
         <Card.Link href="#" className='btn btn-primary'>Forward</Card.Link>
         )}
       </Card.Body>
+      <span className={`priority ${priority}`}></span>
+      
     </Card>
 
   )
