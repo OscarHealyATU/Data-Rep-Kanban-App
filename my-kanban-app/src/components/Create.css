@@ -1,5 +1,6 @@
 .createTask{
      width: 18rem;
+     border-radius: 20px;
     background-color: whitesmoke;
     box-shadow: 5px 5px 5px gainsboro;
     border-left: 1px solid white;
